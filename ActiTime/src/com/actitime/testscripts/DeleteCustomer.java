@@ -35,6 +35,7 @@ public class DeleteCustomer extends BaseClass {
 		
 		t.getSearchCustomer().clear();
 		t.getSearchCustomer().sendKeys(f.getExcelvalue("DeleteCustomer", 1, 1));
+		Thread.sleep(3000);
 		if(t.getIsDeleted().isDisplayed())
 		{
 			f.setExcelValue("TestCases", 3, 6, "Pass");
