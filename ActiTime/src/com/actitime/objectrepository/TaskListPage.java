@@ -58,7 +58,7 @@ public class TaskListPage {
 	@FindBy(xpath="//div[.='There are no customers or projects']")
 	private WebElement isDeleted;
 	
-	@FindBy(xpath="//div[@class='editButton']")
+	@FindBy(xpath="//div[@class='node customerNode editable selected']//div[@class='editButton']")
 	private WebElement editBtn;
 	
 	public WebElement getEditBtn() {

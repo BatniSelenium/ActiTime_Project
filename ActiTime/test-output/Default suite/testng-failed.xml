@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.actitime.testscripts.DeleteCustomer">
+      <class name="com.actitime.testscripts.SearchCustomer">
         <methods>
           <include name="LogoutApp"/>
           <include name="OpenBrowser"/>
           <include name="LoginApp"/>
-          <include name="testDeleteCustomerTaskListPage"/>
+          <include name="testSearchCustomerNegative"/>
           <include name="CloseBrowser"/>
         </methods>
-      </class> <!-- com.actitime.testscripts.DeleteCustomer -->
+      </class> <!-- com.actitime.testscripts.SearchCustomer -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
